@@ -25,7 +25,7 @@ library(shiny)
 
 ## Converting an existing app
 
-Converting an app to a package requires a little work. Follow these steps to create an package. I'm assuming that your app is called `myApp` and it already lives in a directory called `myApp/`.
+Converting an app to a package requires a little work. Follow these steps to create a package. I'm assuming that your app is called `myApp` and it already lives in a directory called `myApp/`.
 
 -   If it doesn't exist already, create an `R` directory.
 
