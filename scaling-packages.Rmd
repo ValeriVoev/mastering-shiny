@@ -40,7 +40,7 @@ Converting an app to a package requires a little work. Follow these steps to cre
     }
     ```
 
--   If you're deploying your app (not just running it locally), you'll need to a add a new `app.R` that tells the deployment server how you run your app. The easiest way is to load the code with pkgload:
+-   If you're deploying your app (not just running it locally), you'll need to add a new `app.R` that tells the deployment server how you run your app. The easiest way is to load the code with pkgload:
 
     ```{r, eval = FALSE}
     myApp()
