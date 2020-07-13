@@ -33,7 +33,7 @@ Converting an app to a package requires a little work. Follow these steps to cre
 
     ```{r}
     myApp <- function(...) {
-      # Plus other stuff that was previously in app.R or globals.R
+      # Plus other stuff that was previously in app.R or global.R
       # Hopefully refactored in a few function calls
       
       shinyApp(ui, server, ...)
