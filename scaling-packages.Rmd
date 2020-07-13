@@ -92,7 +92,7 @@ Before you make your first full app-package, I recommend read [The whole game](h
 
 -   Files in `www`? `inst/www`?
 
--   You can also change your `app.R` to use an the package. This requires that your available somewhere that your deployment machine can install from. For public work this means a CRAN or GitHub package; for private work this means something like RSPM.
+-   You can also change your `app.R` to use the package. This requires that your package is available somewhere that your deployment machine can install from. For public work this means a CRAN or GitHub package; for private work this means something like RSPM.
 
     ```{r, eval = FALSE}
     library(myApp)
